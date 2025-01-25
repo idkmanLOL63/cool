@@ -30,6 +30,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local dhlock = loadstring(game:HttpGet("https://raw.githubusercontent.com/Stratxgy/DH-Lua-Lock/refs/heads/main/Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Stratxgy/Roblox-Lua-Triggerbot/refs/heads/main/Triggerbot.lua"))()
 
 -- 1. Load the library
 local Sense = loadstring(game:HttpGet('https://sirius.menu/sense'))()
@@ -134,4 +135,22 @@ local Toggle = MiscTab:CreateToggle({
             print("X-ray Disabled")
         end
     end,
+})
+
+local Toggle = aimbotTab:CreateToggle({
+   Name = "Aimbot 2(Arsenal Only!)",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/idkmanLOL63/sssssssss/refs/heads/main/source"))()
+   end,
+})
+
+local Toggle = aimbotTab:CreateToggle({
+   Name = "TriggerBot (T to toggle)",
+   CurrentValue = false,
+   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
+   Callback = function(Value)
+      getgenv().triggerbot.load()
+   end,
 })
