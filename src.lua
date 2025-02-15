@@ -1,7 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Silent Hub | RivalsđŸ¤«đŸ¤«", HidePremium = false, SaveConfig = true, ConfigFolder = "Skibidi"})
 
-local chams = loadstring(game:HttpGet("https://raw.githubusercontent.comlocal WallHack = loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Wall-Hack/main//Stratxgy/Roblox-Chams-Highlight/refs/heads/main/Highlight.lua"))()
+local chams = loadstring(game:HttpGet("loadstring(game:HttpGet("https://raw.githubusercontent.com/Exunys/Wall-Hack/main//Stratxgy/Roblox-Chams-Highlight/refs/heads/main/Highlight.lua"))()
 
 
 local aimTab = Window:MakeTab({
